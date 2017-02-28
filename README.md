@@ -36,4 +36,4 @@ $(function(){
 ```
 
 
-### 在线demo [直通车](http://www.zhanglihu.com)
+### 在线demo [直通车](https://www.zhanglihu.com/static/minesweeper/index.html)
