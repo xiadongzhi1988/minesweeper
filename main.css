@@ -1,0 +1,31 @@
+#area{
+    width: 900px;
+    height: 900px;
+}
+#area .item{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: #fe8855;
+    color:#000;
+    font-size: 18px;
+    box-shadow:2px 2px 5px #d3c998;
+    display: inline-block;
+    margin: 1px 1px;
+    vertical-align: top;
+}
+#area .br{
+    margin: 0;
+}
+#area .marked{
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABoVBMVEUAAABmDw+HFBSNFRWHFRVtEBCAgIGDg4OHLi6zLy+uHh6bHR2KFRViDw9pEBCNFhaXl5e6MTGvISGeFxeFhYWtGRlkDw9ubm59ExNYWFiNFhZFRUWoqKiTFhagoKCcFhaSkpK2MTGSGRl7ExN3EhKQFharJyemGBhTDAx+fn6TISGAFBRQDAyHFBSfICCtIiKXFxdUDQ1nZ2eJgIBTU1OQkJA/Pz+mpqaUlJRHR0ednZ1bW1uMjIxpaWlra2t6enpXV1fcS0vUNDS4FxemlZWxLCzfTk7sV1fdPj7CGhrJJCTfRETXSEi0sLGtLCzrV1fiRUXFHR3GHx/bPj7sVlbmTk7TMjK2trerQEDYSEjpVlbnTEzJIiLDGxvXODjqVFTpUVHXNze3HBysrK2nVlbURETnVFTqUVHOKSnBGRnoUFDaPDzDICCfZWbOQEDkUlLrVFTTMDDAGBjPLS3lTEzeQkKhfH3BNzfiUFDoVFTIMDC2FxfJJyfiR0fhRkbNKSmqmpq0Li7YSUnkS0vQLi63trazs7Srq6udnZ2tra3///90EBkkAAAAQXRSTlMADVZvVBSDxWbt+rBNCAtUuvr56Y7+FmFDNHAK/J3Zy63ziEZJgt71AoDjKQJSuvG8B1OfJswD9fUDzCefUjWFFGf5b4sAAAABYktHRIqFaHd2AAAAB3RJTUUH2wEPDiQAKlizBgAAALxJREFUGNNjYAACRiZmFlYGGGBj5+B0dHLm4ubh5eMHCQi4uLq5e3h6efsICgmDBER8/Rz9AwKDgkNCw0TFgALi4RGRUdExsXHxCYlJEkAByeSU1LT0jMywrPjsHCmggLRMbl5+QWFRcUlIqZcsyBC5svKKyqrqmlr3unp5kIBCQ6OikrKKqlpTc4u6BlBAs1VLGySho6unb2AIZBi1GTOgAJN2U1QBM3MLS1QRqw5rVAGbTltUATt7BwQHAL+0JslkiGIVAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE2LTA5LTE3VDE1OjIzOjU1KzA4OjAwQIPyLwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxMS0wMS0xNVQxNDozNjowMCswODowMDrvoPcAAABNdEVYdHNvZnR3YXJlAEltYWdlTWFnaWNrIDcuMC4xLTYgUTE2IHg4Nl82NCAyMDE2LTA5LTE3IGh0dHA6Ly93d3cuaW1hZ2VtYWdpY2sub3Jn3dmlTgAAABh0RVh0VGh1bWI6OkRvY3VtZW50OjpQYWdlcwAxp/+7LwAAABd0RVh0VGh1bWI6OkltYWdlOjpIZWlnaHQAMTYdr15vAAAAFnRFWHRUaHVtYjo6SW1hZ2U6OldpZHRoADE25QCe4gAAABl0RVh0VGh1bWI6Ok1pbWV0eXBlAGltYWdlL3BuZz+yVk4AAAAXdEVYdFRodW1iOjpNVGltZQAxMjk1MDczMzYw5h1wwgAAABB0RVh0VGh1bWI6OlNpemUANjM3QsHoE1QAAABddEVYdFRodW1iOjpVUkkAZmlsZTovLy9ob21lL3d3d3Jvb3Qvc2l0ZS93d3cuZWFzeWljb24ubmV0L2Nkbi1pbWcuZWFzeWljb24uY24vc3JjLzUyMTUvNTIxNTM3LnBuZ67318EAAAAASUVORK5CYII=") no-repeat center center;
+    background-color: rgb(250, 250, 250);
+}
+body{
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*早期浏览器*/
+    user-select:none;
+}
