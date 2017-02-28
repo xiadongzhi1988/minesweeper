@@ -36,8 +36,4 @@ $(function(){
 ```
 
 
-### 在线demo
-竟然写了两天，该好好学习了
-```text
-[直通车](http://www.zhanglihu.com)
-```
+### 在线demo [直通车](http://www.zhanglihu.com)
