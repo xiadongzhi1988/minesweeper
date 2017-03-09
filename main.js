@@ -21,6 +21,7 @@ var saolei = function(options){
         };
     this.options = $.extend(defaultOptions, options);
     this._leftNum = this.options.bnum;
+    this._realLeftNum = this.options.bnum;
     //是否初始化了雷
     this._isInitLei = false;
     this._isFinish = false;
@@ -62,14 +63,22 @@ var saolei = function(options){
                 if($(this).data("isMarked")){
                     self._leftNum++;
                     $(this).data("isMarked", false);
+                    if($(this).data("attribute") == "lei")
+                    {
+                        self._realLeftNum ++;
+                    }
                     $(this).removeClass("marked");
                 }else{
                     $(this).data("isMarked", true);
                     $(this).addClass("marked");
                     self._leftNum--;
+                    if($(this).data("attribute") == "lei")
+                    {
+                        self._realLeftNum --;
+                    }
                 }
 
-                if(self._leftNum == 0) {
+                if(self._realLeftNum == 0) {
                     self._isFinish = true;
                     self.options.success();
                     return;
