@@ -55,6 +55,10 @@ var saolei = function(options){
             var pos  = $(this).attr("pos");
             //右键为3
             if (3 == e.which) {
+                if(!self._isInitLei)
+                {
+                    return;
+                }
                 if($(this).data("isopen"))
                 {
                     return;
